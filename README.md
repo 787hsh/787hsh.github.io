@@ -3,7 +3,6 @@
 <!-- saved from url=(0014)about:internet -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>web</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!--Fireworks CS6 Dreamweaver CS6 target.  Created Fri Oct 13 12:37:08 GMT+0200 2023-->
 </head>
