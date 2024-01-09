@@ -1,16 +1,48 @@
-<!-- saved from url=(0014)about:internet -->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!--Fireworks CS6 Dreamweaver CS6 target.  Created Fri Oct 13 12:37:08 GMT+0200 2023-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
 </head>
-<body bgcolor="#ffffff">
-<img name="web" src="web.gif" width="1200" height="1800" id="web" usemap="#m_web" alt="" /><map name="m_web" id="m_web">
-<area shape="rect" coords="872,143,1058,303" href="787hsh.tumblr.com/info" alt="" />
-<area shape="rect" coords="695,143,872,303" href="787hsh.tumblr.com/acc" alt="" />
-<area shape="rect" coords="531,143,695,303" href="787hsh.tumblr.com/clothwear" alt="" />
-<area shape="rect" coords="377,143,531,303" href="787hsh.tumblr.com/packs" alt="" />
-<area shape="rect" coords="24,15,355,317" href="787hsh.tumblr.com/home" alt="" />
-</map>
+<body>
+
+    <h1>Welcome to Your Simple Website</h1>
+
+    <button onclick="redirectToInstructables()">Instructables</button>
+    <button onclick="download()">Download</button>
+    <button onclick="contact()">Contact</button>
+
+    <script>
+        function redirectToInstructables() {
+            // You can replace this URL with the actual link to your Instructables page
+            window.location.href = 'https://www.instructables.com/';
+        }
+
+        function download() {
+            // You can replace this URL with the actual link to your download page
+            window.location.href = 'https://www.example.com/download';
+        }
+
+        function contact() {
+            // You can replace this URL with the actual link to your contact page
+            window.location.href = 'https://www.example.com/contact';
+        }
+    </script>
+
 </body>
 </html>
